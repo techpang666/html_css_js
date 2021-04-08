@@ -1,0 +1,17 @@
+
+/* 
+
+css有两种盒子模型
+* 标准盒(w3c)模型
+* IE盒模型
+
+ */
+
+.box {
+  /* 标准盒模型 */
+  /* width = content */
+  box-sizing: content-box;
+  /* IE盒模型 */
+  /* width = border + padding + content */
+  box-sizing: border-box;
+}
