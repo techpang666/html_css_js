@@ -1,0 +1,23 @@
+/* 样式小分队 */
+.layout_note {
+	padding: 0;
+	margin: 0;
+}
+
+/* flex布局小分队 */
+.flex {
+	/* 开启弹性布局 */
+	display: flex;
+	/* 项目位于容器的中心 */
+	justify-content: center;
+	/* 项目位于各行之前/之间/之后都留有空白的容器内(空白环绕) */
+	justify-content: space-around;
+  /* 项目位于各行之间留有空白的容器内 */
+  justify-content: space-between;
+  /* 项目位于容器的结尾 */
+  justify-content: end;
+	/* 改变主轴方向为列(垂直显示) */
+	flex-direction: column;
+	/* 默认值row(水平显示) */
+	flex-direction: row;
+}
