@@ -4,6 +4,24 @@
 	margin: 0;
 }
 
+/* padding小分队 */
+.padding {
+	/* 所有边 */
+	padding: 1px;
+	/* 上下 左右 */
+	padding: 1px 2px;
+	/* 上 左右 下 */
+	padding: 1px 2px 3px;
+	/* 顺时针 上右下左 */
+	padding: 1px 2px 3px 4px;
+	/* 继承父元素的属性 */
+	padding: inherit;
+	/* 默认值 */
+	padding: initial;
+	/* 不设置 如果属性属于继承属性 等同于inherit 非继承的则是initial */
+	padding: unset;
+}
+
 /* flex布局小分队 */
 .flex {
 	/* 开启弹性布局 */
